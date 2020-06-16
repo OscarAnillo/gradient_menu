@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(blue, pink);
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 5px #111;
+  color: #fff;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  margin: 6px;
+  background: #fff;
+
+}
+
+.nav {
+  text-align: center;
+  padding: 50px 0;
+  
+  
+}
+
+.list {
+  
+  padding-bottom: 15px;
+}
+
+#uList {
+  
+  display: none;
+  
+}
+
+.list li {
+  
+  list-style: none;
+  padding: 10px 0;
+}
+
+.list a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.intro {
+  text-align: center;
+  
+}
+
+.intro h1 {
+  
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 1px 1px 5px #111;
+}
+
+.intro p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.intro a {
+  display: inline-block;
+  width: 70%;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 15px 30px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.black {
+  background-color: #111;
+  
+}
+
+.intro .fa{
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
